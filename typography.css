@@ -1,0 +1,199 @@
+@font-face {
+    font-family: truelies;
+    src: url(./font/True\ Lies.ttf);
+}
+
+html{
+    scroll-behavior: smooth;     /*Smooth behaviour when scrolling through the page*/
+}
+body {
+    margin: 5;
+    padding: 0;
+    font-family: 'Roboto', sans-serif, truelies;
+    background-color: rgb(39, 37, 37); /*Pages background color*/
+   }
+
+
+
+   h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: truelies;
+    font-weight: 50;
+    text-shadow: 0 4px 6px rgba(122, 122, 122, 0.9);
+   }
+
+
+.nav-buttons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0;
+}
+
+.nav-buttons ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.nav-buttons ul li{
+    list-style: none;
+    padding: 8px 10px;
+    position: relative;
+}
+
+.nav-buttons ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+.nav-buttons ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #525151;
+    display: block;
+    margin: auto;
+    transition: 0.9s;
+}
+
+.nav-buttons ul li:hover::after{
+    width: 100%;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    top: 580px;
+}
+
+.button {
+    padding: 20px 20px;
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 230px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #525252;
+}
+   
+   .item:hover .caption {
+    opacity: 100;
+   }
+
+    .footer {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+        background-color: #353333;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+.chocolat-parent{ 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    max-width: 1490px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    grid-row: 3;
+}
+
+.chocolat-image{ /*Spacing the poster by 40px*/
+padding-top: 10px;
+}
+
+.captions{ /*Caption above the typography system*/
+    color: white;
+    text-decoration:none;
+    margin-top: 2px;
+    padding: 5;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 0 1px 5px rgba(255, 255, 255, 0.9);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+   }
+
+
+   .image-posters {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    
+   }
+   
+
+   .image-posters:hover{
+    transition: transform .3s ease;
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6);
+
+   }
+
+   img{
+    transition: transform .3s ease-in-out;
+   }
+
+   img:hover{
+    transition: transform .3s ease-in-out;
+   }
+
+.footer {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    padding-right: 55px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+}
+.linkedin{
+    width: 50px;
+    height: 50px;  
+    margin: 5px;  
+}
+
+.header-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Typography-paragraph-main{
+    color: white;
+    font-size: 100px;
+
+    font-family: truelies;
+    font-weight: 10;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+.Typography-paragraph2{
+    font-size: 55px;
+    font-family: roboto;
+    max-width: 1409px;
+    text-align: center;
+    margin-top: -54px;
+    padding-top: 3%;
+}
