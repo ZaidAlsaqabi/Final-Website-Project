@@ -53,11 +53,11 @@ body
     width: 100%;
 }
 .footer {
-    background-color: transparent;
-    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    backdrop-filter:blur(10px);
 }
 .footer-text{
     padding-right: 55px;
@@ -80,7 +80,7 @@ body
 }
 .button {
     padding: 20px 20px;
-    background-color: #333333;
+    background-color: #273d68;
     color: white;
     font-size: 20px;
     border: none;
@@ -89,7 +89,7 @@ body
     transition: background-color 0.3s;
 }
 .button:hover {
-    background-color: #525252;
+    background-color: #466ebe;
 }
 .header-container{
     width: 100%;

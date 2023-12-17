@@ -7,6 +7,11 @@ html{
     scroll-behavior: smooth;     /*Smooth behaviour when scrolling through the page*/
 }
 body {
+    background-image: url(./images/Typographybackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 5;
     padding: 0;
     font-family: 'Roboto', sans-serif, truelies;
@@ -94,7 +99,7 @@ body {
 
     .footer {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
-        background-color: #353333;
+        background-color: transparent;
         color: white;
         text-align: center;
         padding: 4px;
@@ -161,6 +166,7 @@ a {
     color: white;
     display: flex;
     justify-content: space-between;
+    backdrop-filter:blur(10px);
 }
 .footer-text{
     padding-right: 55px;
